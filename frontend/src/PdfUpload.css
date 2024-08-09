@@ -1,0 +1,131 @@
+/* Estilo Geral */
+.pdf-upload-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título Principal */
+h1 {
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Campo de seleção de arquivos */
+.file-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #343a40;
+}
+
+/* Exibe a lista de arquivos selecionados */
+.file-names {
+    width: 100%;
+    text-align: center;
+}
+
+.file-names ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.file-names li {
+    font-size: 16px;
+    color: #343a40;
+}
+
+/* Campo de e-mail */
+.email-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #495057; /* Cor do texto no campo de e-mail */
+}
+
+/* Botão de Upload */
+.upload-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #28a745;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #218838;
+}
+
+.upload-button:disabled {
+    background-color: #6c757d;
+}
+
+/* Seção de Download */
+.download-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.download-link {
+    color: #007bff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+}
+
+/* Seção de Histórico */
+.history-section {
+    margin-top: 30px;
+}
+
+.history-section h2 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.history-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.history-section li {
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #212529; /* Garantir que o texto seja visível */
+    font-size: 16px; /* Ajustar o tamanho da fonte se necessário */
+}
