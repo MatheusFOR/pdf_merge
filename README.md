@@ -51,8 +51,11 @@ A **PDF Merge Application** é uma aplicação web que permite aos usuários mes
     spring.datasource.username=seu-usuario
     spring.datasource.password=sua-senha
     ```
-
-4. Compile e execute a aplicação Spring Boot:
+4. Configure a URL do CorsConfig
+    ```
+    .allowedOrigins("http://localhost:Porta Gerada no 'vite run dev' ") // URL do frontend
+    ```
+5. Compile e execute a aplicação Spring Boot:
     ```bash
     mvn clean install
     mvn spring-boot:run
@@ -75,7 +78,7 @@ A **PDF Merge Application** é uma aplicação web que permite aos usuários mes
     npm run dev
     ```
 
-4. Acesse a aplicação no navegador em `http://localhost:5173`.
+4. Acesse a aplicação no navegador em `http://localhost:portageradanoVite`.
 
 ## Uso
 
